@@ -91,3 +91,81 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         print("An error occured", e)
+
+'''
+OUTPUT
+------
+"E:\entri\DSML projects\venv\Scripts\python.exe" "E:/entri/DSML projects/basics/banking system FA2.py"
+
+1. Login
+2. Exit
+Please select an option: 1
+Enter your account number: 123456
+Enter your PIN: 12
+Invalid account number or PIN.
+
+1. Login
+2. Exit
+Please select an option: 1
+Enter your account number: 123456
+Enter your PIN: 1234
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Change PIN
+5. Logout
+Please select an option: 3
+Your current balance is Rs.1000.
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Change PIN
+5. Logout
+Please select an option: 1
+Enter the amount to deposit: Rs.2000
+Deposit of Rs.2000.0 successful. Your new balance is Rs.3000.0.
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Change PIN
+5. Logout
+Please select an option: 2
+Enter the amount to withdraw: Rs.1000
+Withdrawal of Rs.1000.0 successful. Your new balance is Rs.2000.0.
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Change PIN
+5. Logout
+Please select an option: 3
+Your current balance is Rs.2000.0.
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Change PIN
+5. Logout
+Please select an option: 4
+Enter your new PIN: 1213
+PIN changed successfully.
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Change PIN
+5. Logout
+Please select an option: 5
+Logged out.Thank You
+
+1. Login
+2. Exit
+Please select an option: 2
+Exiting...
+
+Process finished with exit code 0
+
+'''
